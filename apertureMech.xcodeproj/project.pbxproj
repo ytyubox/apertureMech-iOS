@@ -13,38 +13,24 @@
 		A7388B4723AB84C300408DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7388B4523AB84C300408DB0 /* Main.storyboard */; };
 		A7388B4C23AB84C400408DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7388B4B23AB84C400408DB0 /* Assets.xcassets */; };
 		A7388B4F23AB84C400408DB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7388B4D23AB84C400408DB0 /* LaunchScreen.storyboard */; };
-		A7388B5A23AB84C400408DB0 /* tryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7388B5923AB84C400408DB0 /* tryTests.swift */; };
 		A7EFF06223AFA48A00F5B159 /* FluentInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EFF06123AFA48A00F5B159 /* FluentInterface.swift */; };
 		A7EFF06523AFA72F00F5B159 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A7EFF06423AFA72F00F5B159 /* SnapKit */; };
 		A7EFF06723AFAAF500F5B159 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EFF06623AFAAF500F5B159 /* View.swift */; };
 		A7EFF06923AFB98600F5B159 /* SnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EFF06823AFB98600F5B159 /* SnapViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A7388B5623AB84C400408DB0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7388B3423AB84C200408DB0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A7388B3B23AB84C200408DB0;
-			remoteInfo = try;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		A7388B3C23AB84C200408DB0 /* apertureMech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apertureMech.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7388B3F23AB84C200408DB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7388B4123AB84C300408DB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A7388B4323AB84C300408DB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7388B3F23AB84C200408DB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../apertureMech/AppDelegate.swift; sourceTree = "<group>"; };
+		A7388B4123AB84C300408DB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../apertureMech/SceneDelegate.swift; sourceTree = "<group>"; };
+		A7388B4323AB84C300408DB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../apertureMech/Storyboard/ViewController.swift; sourceTree = "<group>"; };
 		A7388B4623AB84C300408DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A7388B4B23AB84C400408DB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7388B4B23AB84C400408DB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../apertureMech/Assets.xcassets; sourceTree = "<group>"; };
 		A7388B4E23AB84C400408DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A7388B5023AB84C400408DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7388B5523AB84C400408DB0 /* apertureMechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apertureMechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7388B5923AB84C400408DB0 /* tryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryTests.swift; sourceTree = "<group>"; };
-		A7388B5B23AB84C400408DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7EFF06123AFA48A00F5B159 /* FluentInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluentInterface.swift; sourceTree = "<group>"; };
-		A7EFF06623AFAAF500F5B159 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		A7EFF06823AFB98600F5B159 /* SnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapViewController.swift; sourceTree = "<group>"; };
+		A7388B5023AB84C400408DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../apertureMech/Info.plist; sourceTree = "<group>"; };
+		A7EFF06123AFA48A00F5B159 /* FluentInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FluentInterface.swift; path = ../../apertureMech/helper/FluentInterface.swift; sourceTree = "<group>"; };
+		A7EFF06623AFAAF500F5B159 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = View.swift; path = ../../apertureMech/SnapKit/View.swift; sourceTree = "<group>"; };
+		A7EFF06823AFB98600F5B159 /* SnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SnapViewController.swift; path = ../../apertureMech/SnapKit/SnapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,21 +42,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7388B5223AB84C400408DB0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		A7388B3323AB84C200408DB0 = {
 			isa = PBXGroup;
 			children = (
-				A7388B3E23AB84C200408DB0 /* try */,
-				A7388B5823AB84C400408DB0 /* tryTests */,
+				A7388B3E23AB84C200408DB0 /* apertureMech */,
 				A7388B3D23AB84C200408DB0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,12 +57,11 @@
 			isa = PBXGroup;
 			children = (
 				A7388B3C23AB84C200408DB0 /* apertureMech.app */,
-				A7388B5523AB84C400408DB0 /* apertureMechTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7388B3E23AB84C200408DB0 /* try */ = {
+		A7388B3E23AB84C200408DB0 /* apertureMech */ = {
 			isa = PBXGroup;
 			children = (
 				A7388B3F23AB84C200408DB0 /* AppDelegate.swift */,
@@ -96,16 +73,7 @@
 				A7388B4D23AB84C400408DB0 /* LaunchScreen.storyboard */,
 				A7388B5023AB84C400408DB0 /* Info.plist */,
 			);
-			path = try;
-			sourceTree = "<group>";
-		};
-		A7388B5823AB84C400408DB0 /* tryTests */ = {
-			isa = PBXGroup;
-			children = (
-				A7388B5923AB84C400408DB0 /* tryTests.swift */,
-				A7388B5B23AB84C400408DB0 /* Info.plist */,
-			);
-			path = tryTests;
+			path = apertureMech;
 			sourceTree = "<group>";
 		};
 		A761BD0223AFC205009398B2 /* Storyboard */ = {
@@ -157,24 +125,6 @@
 			productReference = A7388B3C23AB84C200408DB0 /* apertureMech.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A7388B5423AB84C400408DB0 /* apertureMechTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A7388B6123AB84C400408DB0 /* Build configuration list for PBXNativeTarget "apertureMechTests" */;
-			buildPhases = (
-				A7388B5123AB84C400408DB0 /* Sources */,
-				A7388B5223AB84C400408DB0 /* Frameworks */,
-				A7388B5323AB84C400408DB0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A7388B5723AB84C400408DB0 /* PBXTargetDependency */,
-			);
-			name = apertureMechTests;
-			productName = tryTests;
-			productReference = A7388B5523AB84C400408DB0 /* apertureMechTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -187,10 +137,6 @@
 				TargetAttributes = {
 					A7388B3B23AB84C200408DB0 = {
 						CreatedOnToolsVersion = 11.2.1;
-					};
-					A7388B5423AB84C400408DB0 = {
-						CreatedOnToolsVersion = 11.2.1;
-						TestTargetID = A7388B3B23AB84C200408DB0;
 					};
 				};
 			};
@@ -211,7 +157,6 @@
 			projectRoot = "";
 			targets = (
 				A7388B3B23AB84C200408DB0 /* apertureMech */,
-				A7388B5423AB84C400408DB0 /* apertureMechTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,13 +169,6 @@
 				A7388B4F23AB84C400408DB0 /* LaunchScreen.storyboard in Resources */,
 				A7388B4C23AB84C400408DB0 /* Assets.xcassets in Resources */,
 				A7388B4723AB84C300408DB0 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7388B5323AB84C400408DB0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,23 +188,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7388B5123AB84C400408DB0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7388B5A23AB84C400408DB0 /* tryTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A7388B5723AB84C400408DB0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A7388B3B23AB84C200408DB0 /* apertureMech */;
-			targetProxy = A7388B5623AB84C400408DB0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A7388B4523AB84C300408DB0 /* Main.storyboard */ = {
@@ -275,6 +197,7 @@
 				A7388B4623AB84C300408DB0 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../apertureMech/Storyboard;
 			sourceTree = "<group>";
 		};
 		A7388B4D23AB84C400408DB0 /* LaunchScreen.storyboard */ = {
@@ -283,6 +206,7 @@
 				A7388B4E23AB84C400408DB0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../apertureMech;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -408,12 +332,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3AMPL46LPV;
-				INFOPLIST_FILE = try/Info.plist;
+				INFOPLIST_FILE = apertureMech/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ytyubox.try;
+				PRODUCT_BUNDLE_IDENTIFIER = ytyubox.apertureMech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -426,59 +350,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3AMPL46LPV;
-				INFOPLIST_FILE = try/Info.plist;
+				INFOPLIST_FILE = apertureMech/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ytyubox.try;
+				PRODUCT_BUNDLE_IDENTIFIER = ytyubox.apertureMech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		A7388B6223AB84C400408DB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3AMPL46LPV;
-				INFOPLIST_FILE = tryTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ytyubox.tryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apertureMech.app/apertureMech";
-			};
-			name = Debug;
-		};
-		A7388B6323AB84C400408DB0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3AMPL46LPV;
-				INFOPLIST_FILE = tryTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ytyubox.tryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apertureMech.app/apertureMech";
 			};
 			name = Release;
 		};
@@ -499,15 +379,6 @@
 			buildConfigurations = (
 				A7388B5F23AB84C400408DB0 /* Debug */,
 				A7388B6023AB84C400408DB0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A7388B6123AB84C400408DB0 /* Build configuration list for PBXNativeTarget "apertureMechTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A7388B6223AB84C400408DB0 /* Debug */,
-				A7388B6323AB84C400408DB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
