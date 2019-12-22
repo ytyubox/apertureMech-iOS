@@ -15,12 +15,11 @@ class MyView: UIView {
 		apply()
 		
 	}
-	var it: ConstraintMakerEditable!
 	private lazy var baseView = makeView(color: .white)
 	private func apply() {
 		baseView.snp.makeConstraints { (make) in
 			make.center.equalTo(self)
-			self.it = make.height.width.equalToSuperview().multipliedBy(persentage)
+			make.height.width.equalToSuperview().multipliedBy(persentage)
 		}
 		
 		let v1 = makeView(color: .orange)
@@ -31,18 +30,18 @@ class MyView: UIView {
 			make.right.equalTo(baseView.snp.right)
 		}
 		let v2 = makeView(color: .yellow)
-		v2.snp.makeConstraints{
-			$0.top.equalToSuperview()
-			$0.right.equalToSuperview()
-			$0.bottom.equalTo(baseView.snp.bottom)
-			$0.left.equalTo(baseView.snp.right)
+		v2.snp.makeConstraints{ (make) in
+			make.top.equalToSuperview()
+			make.right.equalToSuperview()
+			make.bottom.equalTo(baseView.snp.bottom)
+			make.left.equalTo(baseView.snp.right)
 		}
 		let v3 = makeView(color: .green)
-		v3.snp.makeConstraints{
-			$0.top.equalTo(baseView.snp.bottom)
-			$0.right.equalToSuperview()
-			$0.bottom.equalToSuperview()
-			$0.left.equalTo(baseView.snp.left)
+		v3.snp.makeConstraints{ (make) in
+			make.top.equalTo(baseView.snp.bottom)
+			make.right.equalToSuperview()
+			make.bottom.equalToSuperview()
+			make.left.equalTo(baseView.snp.left)
 		}
 	}
 	private func makeView(color: UIColor) -> UIView {
@@ -59,7 +58,3 @@ class MyView: UIView {
 		super.updateConstraints()
 	}
 }
-
-internal extension MyView {
-}
-
