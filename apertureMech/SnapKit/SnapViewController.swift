@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FluentInterface
 
 final class SnapViewController:UIViewController {
 	override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {

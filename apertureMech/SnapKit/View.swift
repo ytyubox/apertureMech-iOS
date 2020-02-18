@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FluentInterface
 import SnapKit
 
 class MyView: UIView {
